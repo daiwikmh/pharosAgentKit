@@ -3,8 +3,7 @@
 The first native agent kit for the Pharos Network, enabling developers to easily implement and interact with Pharos smart contract functions.
 
 # Pharos Network Agent Kit Smart Contracts
-
-This repository contains the smart contracts for our first agent kit deployed on the Pharos Network. The contracts implement a decentralized finance (DeFi) system that includes a vault for collateralized stablecoin minting, a liquidity pool for token swaps, and an ERC20 token contract. Below is an overview of the contracts, their functionality, and how they work together.
+The contracts implement a decentralized finance (DeFi) system that includes a vault for collateralized stablecoin minting, a liquidity pool for token swaps, and an ERC20 token contract. Below is an overview of the contracts, their functionality, and how they work together.
 
 ## Overview
 
@@ -68,16 +67,54 @@ function addLiquidity(
 - Token A Contract: `0xA22E754485D37EbC662141d06fEf3119ddd9Ec53`
 - Token B (Stable Coin) Contract: `0xb0b2d1e56328EB6f7e5c9139e7BA4b47A02C7acD`
 
-## Features
+Why It’s Useful
+The Pharos Agent Kit is valuable because it saves developers time and effort while opening up powerful financial possibilities. Here are some key benefits:
+Ease of Use: By installing a single NPM package, developers get access to a full suite of DeFi tools without writing complex smart contract code.
 
-- Automated liquidity management
-- Token swapping capabilities
-- Price oracle integration
-- Reserve monitoring
-- Full TypeScript support
-- Built with LangChain for AI integration
+Versatility: The kit supports a range of applications, from decentralized exchanges (where users trade tokens) to lending platforms (where users borrow stablecoins) to custom financial tools.
+
+Pharos Network Optimization: The kit is tailored for the Pharos Network, which is designed for fast, secure, and cost-effective transactions, making it ideal for DeFi applications.
+
+Scalability: Developers can build small prototypes or large-scale applications, as the tools are designed to handle various levels of complexity.
+
+Community and Growth: By building on the Pharos Network, developers join a growing ecosystem of DeFi projects, with opportunities to collaborate and innovate.
+
+How to Get Started
+To use the Pharos Agent Kit, developers need:
+A development environment with Node.js and NPM installed.
+
+Access to the Pharos Network, either through its main network (Mainnet) or a testing network (Devnet).
+
+A digital wallet with some Pharos Network tokens to pay for transaction fees.
+
+Once set up, developers can install the package with npm i pharosagent, follow the documentation to configure their connection, and start using the tools. The kit includes example code to show how to perform common tasks, like setting up a vault or adding liquidity, making it easy to get started.
+Important Notes
+Contract Addresses: The addresses listed above (0x123..., 0xabc..., 0x789...) are placeholders. Developers must use the actual addresses of the deployed contracts on the Pharos Network (check the project’s official documentation or repository for these).
+
+Security: Before using the kit in a live application, developers should verify the contract addresses and ensure their application is secure. The kit’s token management tools, for example, may need restrictions to prevent unauthorized actions like creating unlimited tokens.
+
+Testing: Developers can test their applications on the Pharos Devnet, a testing environment where they can experiment without using real money.
+
+Support: The Pharos Agent Kit team provides support through email, a community Discord, or GitHub issues (details available in the project repository).
+
+Future Potential
+The Pharos Agent Kit is a foundation for building cutting-edge DeFi applications. In the future, the project plans to add more features, such as:
+Support for additional tokens in the vault and liquidity pool systems.
+
+Tools for governance, allowing users to vote on system changes.
+
+Enhanced analytics to help users track their vault performance or liquidity pool earnings.
+
+Integration with other blockchain networks for cross-chain functionality.
+
+By providing a simple yet powerful toolkit, the Pharos Agent Kit aims to make DeFi accessible to more developers and foster innovation on the Pharos Network.
+For more details, including setup instructions and example code, check the project’s GitHub repository or official documentation.
+
+
 
 ## Getting Started
+
+https://www.npmjs.com/package/pharosagent
 
 ### Prerequisites
 
