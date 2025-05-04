@@ -1,8 +1,8 @@
-# Pharos Agent Kit
+# Pharos Agent Kit: DEVELOPER TOOLING
 
 The first native agent kit for the Pharos Network, enabling developers to easily implement and interact with Pharos smart contract functions.
 
-# Pharos Network Agent Kit Smart Contracts
+# Pharos Network Agent Kit Smart Contracts: CUSTOM BUILT
 The contracts implement a decentralized finance (DeFi) system that includes a vault for collateralized stablecoin minting, a liquidity pool for token swaps, and an ERC20 token contract. Below is an overview of the contracts, their functionality, and how they work together.
 
 ## Overview
@@ -61,11 +61,20 @@ function addLiquidity(
     uint256 liquidity
 );
 
-## Contract Addresses
+## Contract Addresses & Links
 
-- PharosSwap Contract: `0x65B4Ae254B2B172eb5F4D495aBfF9A39Ac376d87`
-- Token A Contract: `0xA22E754485D37EbC662141d06fEf3119ddd9Ec53`
-- Token B (Stable Coin) Contract: `0xb0b2d1e56328EB6f7e5c9139e7BA4b47A02C7acD`
+### Smart Contracts
+- PharosSwap Contract: [`0x65B4Ae254B2B172eb5F4D495aBfF9A39Ac376d87`](https://pharosscan.xyz/address/0x65B4Ae254B2B172eb5F4D495aBfF9A39Ac376d87?tab=txs)
+- Token A Contract: [`0xA22E754485D37EbC662141d06fEf3119ddd9Ec53`](https://pharosscan.xyz/address/0xA22E754485D37EbC662141d06fEf3119ddd9Ec53)
+- Token B (Stable Coin) Contract: [`0xb0b2d1e56328EB6f7e5c9139e7BA4b47A02C7acD`](https://pharosscan.xyz/address/0xb0b2d1e56328EB6f7e5c9139e7BA4b47A02C7acD)
+
+### Package Installation
+The Pharos Agent Kit is available on npm: [pharosagent](https://www.npmjs.com/package/pharosagent)
+
+Install using npm:
+```bash
+npm i pharosagent
+```
 
 Why It’s Useful
 The Pharos Agent Kit is valuable because it saves developers time and effort while opening up powerful financial possibilities. Here are some key benefits:
